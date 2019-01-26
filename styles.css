@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFFA;
+  background-color: #44a1a0;
   color: #0D5C63
 }
 
@@ -32,11 +32,34 @@ nav ul {
   list-style: none;
   font-size: 1.5em;
   color: #dddddd;
+  text-decoration: none;
   font-family: sans-serif;
+  border-right: 1px solid #dddddd;
 
 }
 
 nav a:hover{
   background color: #310d20;
-  
+
+}
+
+main {
+  min-height: 300px
+}
+
+footer {
+  border-top: 1px solid #FFFFFA;
+  text-align: center;
+  font-weight: bold;
+  font font-family: lighter;
+  font-style: italic;
+
+}
+
+footer a {
+  color: #24747b;
+}
+
+footer a:hover {
+  color: #FF5964;
 }
