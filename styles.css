@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #44A1A0
+  background-color: #44A1A0;
   text-align: center;
   font-size: 2em;
   font-family: 'Open Sans', sans-serif;
@@ -13,4 +13,30 @@ header {
 header h1 {
   margin: 0;
 
+}
+
+nav {
+  background-color: #78cdd7;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  }
+
+nav li {
+  float: left;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1.5em;
+  color: #dddddd;
+  font-family: sans-serif;
+
+}
+
+nav a:hover{
+  background color: #310d20;
+  
 }
